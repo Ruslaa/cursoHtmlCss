@@ -1,0 +1,68 @@
+
+
+/*
+h1{
+color: darkorchid;
+}
+
+p{
+    background-color: gold;
+    padding: 10px;
+}
+
+div {
+    padding: 10px;
+    background-color: darkorchid;
+    margin-bottom: 10px;
+}
+*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    list-style: 20px;
+    font-weight: 300;
+}
+
+#midiv
+{
+    color: darkorchid;
+    text-transform:capitalize;
+}
+.verde{
+    color: rgba(226, 125, 57, 0.212);
+}
+.rosa {
+    color: indigo;
+}
+h1,h2,p {
+    color: maroon;
+}
+
+[atributo="hola"]{
+    color: orangered;
+}
+
+input[type="text"] {
+
+    border: 2px solid crimson
+}
+
+.div1 p {
+    color: rgb(15, 49, 143);
+    background-color: #00ffff67;
+    padding: 20px;
+    margin:30px;
+    border: 2px dotted crimson; 
+}
+.div2 p {
+    color: rgb(175, 129, 28);
+    background-color: rgb(9, 255, 0);
+    padding: 20px;
+    margin:30px;
+    border: 2px dotted rgb(29, 5, 10); 
+}
+.div1 p:hover {
+    color: crimson;
+    background-color: darkblue;
+    
+}
