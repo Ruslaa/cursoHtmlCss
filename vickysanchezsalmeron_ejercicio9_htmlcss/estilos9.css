@@ -1,0 +1,58 @@
+
+h1 {
+color: #fafafa;
+font-family: 'Bakbak One', cursive;
+font-size: 10vw;
+
+}
+body {
+background-color: #e90e7b;
+
+}
+
+.contenedor {
+
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 3;
+    top: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+   
+}
+
+.cuadrado {
+    height: 200px;
+    width: 228px;
+    border-radius: 40px;
+    background-color:  #0000ff;
+    transition: 1s;
+
+}
+.cuadrado:hover {
+    transform:rotate(360deg)    
+ 
+}
+
+.cuadrado2 {
+    height: 200px;
+    width: 228px;
+    border-radius: 40px;
+    background-color:  #ffd900;
+    transition-duration: 3s;
+    transition-delay:1s;
+    transition-timing-function: ease;
+    transition-property:all;
+    transition: all 2s ease 1s;
+
+}
+.cuadrado2:hover {
+    transform: translate(300px);
+    cursor:pointer;
+    transition: all 2s ease;   
+ 
+}
